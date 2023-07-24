@@ -22,7 +22,7 @@ function Home() {
   return (
     <div
       style={{
-        margin: '20px;',
+        margin: '100px auto;',
         width: '400px;',
       }}
     >
