@@ -26,7 +26,7 @@ const Select = ({
   hint,
   error,
 }: PropsType) => {
-  const [selectValue, setSelectValue] = useState<OptionType | null>();
+  const [selectValue, setSelectValue] = useState<OptionType | null>(null);
   const [isOptionsVisible, setIsOptionsVisible] = useState<boolean>(false);
 
   const wrapperRef = useRef<HTMLDivElement | null>(null);
